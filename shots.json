@@ -1,0 +1,38 @@
+[
+ {
+  "file": "1-cover.jpg",
+  "path": "/?shot=cover",
+  "shows": "The checklist with real progress in the header (9 earned, points, platinum meter), the kind filters and search, and The Shootist's guide open in the detail panel with its 42-challenge count and its sources.",
+  "viewport": {
+   "height": 1150,
+   "width": 1280
+  }
+ },
+ {
+  "file": "2-roadmap.jpg",
+  "path": "/?shot=roadmap",
+  "shows": "The roadmap to the platinum: stages 1-4 with per-stage progress, the chapter order, and In The Beginning... flagged MISSABLE inline in stage 1.",
+  "viewport": {
+   "height": 900,
+   "width": 1280
+  }
+ },
+ {
+  "file": "3-missables.jpg",
+  "path": "/?shot=missables",
+  "shows": "The Missables view with the spoiler setting switched on: the flagging rule, and Catch Me If You Can's warning, guide and sources.",
+  "viewport": {
+   "height": 900,
+   "width": 1280
+  }
+ },
+ {
+  "file": "4-guide.jpg",
+  "path": "/?shot=guide",
+  "shows": "The checklist with You WAiNKer!'s guide open: its 100-location count chip, the official description, the guide in our words and its cited sources.",
+  "viewport": {
+   "height": 1150,
+   "width": 1280
+  }
+ }
+]

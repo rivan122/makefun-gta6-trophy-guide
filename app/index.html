@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Leonida Ledger — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="casefile.css">
+</head>
+<body>
+<header id="case-header">
+  <div class="case-stamp-row">
+    <span class="case-number">CASE Nº VI-55 · STATE OF LEONIDA</span>
+    <span class="case-status">OFFLINE FILE · NO NETWORK NEEDED</span>
+  </div>
+  <h1>The Leonida Ledger</h1>
+  <p class="case-subtitle">A trophy guide &amp; tracker for Grand Theft Auto VI on PlayStation 5 — all 55 trophies with their official names, descriptions and grades, a guide in our own words for each one with its sources cited, a roadmap to the platinum, and every missable flagged from the official descriptions.</p>
+  <section id="progress-summary" aria-label="Your progress">
+    <div class="stat-block">
+      <span class="stat-value" id="stat-earned">0 / 55</span>
+      <span class="stat-label">trophies earned</span>
+    </div>
+    <div class="stat-block">
+      <span class="stat-value" id="stat-percent">0%</span>
+      <span class="stat-label">of the list</span>
+    </div>
+    <div class="stat-block">
+      <span class="stat-value" id="stat-points">0</span>
+      <span class="stat-label">trophy points</span>
+    </div>
+    <div class="stat-block stat-platinum">
+      <span class="stat-value" id="stat-platinum">0 / 54</span>
+      <span class="stat-label">toward the platinum</span>
+      <div class="meter"><div class="meter-fill" id="platinum-meter"></div></div>
+    </div>
+  </section>
+  <div class="meter meter-wide"><div class="meter-fill" id="overall-meter"></div></div>
+</header>
+
+<nav id="controls" aria-label="Guide controls">
+  <div class="view-tabs" role="tablist" aria-label="Views">
+    <button type="button" class="view-tab is-active" data-view="checklist" role="tab">Checklist</button>
+    <button type="button" class="view-tab" data-view="roadmap" role="tab">Roadmap</button>
+    <button type="button" class="view-tab" data-view="missables" role="tab">Missables <span class="tab-count" id="missable-count"></span></button>
+  </div>
+  <div class="control-row">
+    <label class="search-box">Search
+      <input type="search" id="search-input" placeholder="trophy, mission, place…" autocomplete="off">
+    </label>
+    <label class="grade-box">Grade
+      <select id="grade-select">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label class="spoiler-toggle">
+      <input type="checkbox" id="spoiler-checkbox">
+      <span>Hide story spoilers</span>
+    </label>
+    <div class="io-buttons">
+      <button type="button" id="export-button">Export progress</button>
+      <button type="button" id="import-button">Import progress</button>
+      <input type="file" id="import-file" accept="application/json,.json" hidden>
+    </div>
+  </div>
+  <div class="kind-filters" id="kind-filters" aria-label="Filter by kind"></div>
+</nav>
+
+<main>
+  <section id="view-checklist" class="view is-active">
+    <div class="checklist-layout">
+      <div id="trophy-list" aria-live="polite"></div>
+      <aside id="trophy-detail" aria-label="Trophy guide"></aside>
+    </div>
+  </section>
+  <section id="view-roadmap" class="view">
+    <div id="roadmap-list"></div>
+  </section>
+  <section id="view-missables" class="view">
+    <div id="missables-list"></div>
+  </section>
+</main>
+
+<footer id="case-footer">
+  <p><strong>How this file was built.</strong> Trophy names, descriptions and grades are the official PlayStation list, shown exactly as published. Every guide is written for this entry and cites its sources beside the trophy: the PlayStation trophy list (official descriptions) is the primary source for each guide; PSNProfiles — Grand Theft Auto VI trophy list and Exophase — Grand Theft Auto VI (PSN) trophies corroborate the list and its counts; GTA Wiki — Grand Theft Auto VI is cited for world context. Missable flags are reasoned from the official descriptions alone — a trophy is flagged only when its description names a single event, a beginning-of-game moment or a one-off set-piece. Your progress never leaves this browser except in the export file you save yourself.</p>
+</footer>
+
+<script type="module" src="js/guide-app.js"></script>
+</body>
+</html>
